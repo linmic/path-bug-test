@@ -191,13 +191,7 @@ webpackConfig.postcss = [
     },
     safe: true,
     sourcemap: true
-  }),
-  require('postcss-assets')({
-    loadPaths: [
-      paths.client('static'),
-    ],
-    basePath: paths.client('src/'),
-  }),
+  })
 ]
 
 // File loaders
